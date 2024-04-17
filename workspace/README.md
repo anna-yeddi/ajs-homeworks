@@ -100,9 +100,7 @@ const alive = characters.filter(item => item.health > 0);
 Ваша задача «прикрутить» ESLint к проекту и настроить работу с его использованием.
 
 Установка:
-```shell
-npm install --save-dev eslint
-npx eslint --init
+```npm install --save-dev eslint@8
 ```
 
 
@@ -143,6 +141,7 @@ const alive = characters.filter(item => item.health > 0);
 ```
 dist
 ```
+Создайте файл `.eslintrc.js`
 
 Содержимое `.eslintrc.js`:
 ```js
