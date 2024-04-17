@@ -100,7 +100,8 @@ const alive = characters.filter(item => item.health > 0);
 Ваша задача «прикрутить» ESLint к проекту и настроить работу с его использованием.
 
 Установка:
-```npm install --save-dev eslint@8
+```
+npm install --save-dev eslint@8
 ```
 
 
